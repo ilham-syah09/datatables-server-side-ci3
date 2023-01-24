@@ -45,12 +45,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="col-md-6">
                             <label for="formFile" class="form-label">Import data from Xlsx/Xls/Csv</label>
                             <input class="form-control" type="file" id="upload_file" name="upload_file">
-                            <button type="submit" class="btn btn-dark mt-2">Export</button>
+                            <button type="submit" class="btn btn-dark mt-2">Import</button>
                         </div>
                     </div>
                 </form>
                 <a href="<?= base_url('phpspreadsheet/export'); ?>" class="mt-2 btn btn-info">Export Xlsx</a>
-                <a href="<?= base_url('export_fpdf'); ?>" class="mt-2 btn btn-info">Export PDF</a>
+                <a href="<?= base_url('export_fpdf'); ?>" class="mt-2 btn btn-warning">Export PDF</a>
             </div>
             <div class="card">
                 <div class="card-header">

@@ -50,6 +50,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </form>
                 <a href="<?= base_url('phpspreadsheet/export'); ?>" class="mt-2 btn btn-info">Export Xlsx</a>
+                <a href="<?= base_url('export_fpdf'); ?>" class="mt-2 btn btn-info">Export PDF</a>
             </div>
             <div class="card">
                 <div class="card-header">
